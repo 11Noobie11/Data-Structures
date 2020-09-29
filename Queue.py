@@ -1,3 +1,5 @@
+#Queue
+
 class queue:
     def __init__(self):
         self.items=[]
@@ -11,9 +13,9 @@ class queue:
 q=queue()
 while True:
     print("\n1 Put\n2 Get\n3 Exit\n")
-    ch=int(input("Enter your choice : "))
+    ch=int(input("Enter your choice:"))
     if ch==1:
-        value=int(input("Enter the item : "))
+        value=int(input("Enter the item:"))
         q.enqueue(value)
         print("\nSuccess :)")
     elif ch==2:
